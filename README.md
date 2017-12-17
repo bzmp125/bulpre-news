@@ -1,12 +1,6 @@
-# Preact Boilerplate / Starter Kit [![Build Status](https://travis-ci.org/developit/preact-boilerplate.svg?branch=master)](https://travis-ci.org/developit/preact-boilerplate) [![Preact Slack Community](https://preact-slack.now.sh/badge.svg)](https://preact-slack.now.sh)
+# Bulpre News 
 
-:guitar: Ready-to-rock [Preact] starter project, powered by [webpack]. **[(View Demo)](https://preact-boilerplate.surge.sh)**
-
-> ### :rocket: Note: We now recommend [Preact CLI](https://github.com/developit/preact-cli/) for new projects.
->
-> [Preact CLI](https://github.com/developit/preact-cli/) is a natural evolution of this boilerplate, and improves on it in every way. In a single dependency, you get a friendly command line project creation and build tool with development & production modes. Preact CLI requires _no configuration at all_, and even does **automatic code-splitting** without you lifting a finger!  It also produces bundles roughly half the size of preact-boilerplate.
-
----
+A simple news site built using Preact and Bulma CSS. This project is based on the [Preact Boiler](https://github.com/developit/preact-boilerplate) by Jason Miller (https://github.com/developit).
 
 
 # Quick-Start Guide
@@ -24,7 +18,7 @@
 **1. Clone this repo:**
 
 ```sh
-git clone --depth 1 https://github.com/developit/preact-boilerplate.git my-app
+git clone --depth 1 https://github.com/bzmp125/bulpre-news my-app
 cd my-app
 ```
 

@@ -10,7 +10,7 @@
     "prebuild": "mkdirp build && ncp src/assets build/assets",
     "test": "npm run -s lint && jest --coverage",
     "deploy":"cp -r build/* dist/; firebase deploy",
-    "git-push":"cd build;git add .;git commit -m 'LC';git push -u origin master",
+    "git-push":"git add .;git commit -m 'LC';git push -u origin master",
     "build-deploy":"npm run build && npm run deploy",
     "build-deploy-push":"npm run build && npm run deploy && npm run git-push",
     "test:watch": "npm run -s test -- --watch",

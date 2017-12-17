@@ -8,5 +8,5 @@ yarn.lock
 /.vscode
 /dist
 /functions
-firebase.*
+firebase.**
 .firebaserc
